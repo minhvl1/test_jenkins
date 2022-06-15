@@ -9,5 +9,9 @@ pipeline
                 git branch: 'main', url: 'https://github.com/minhvl1/test_jenkins.git'
                 }
         }
+         stage('Test') {
+                   steps {
+                            sh 'mvn -Dmaven.test.failure.ignore=true install'
+                      }
     }
 }
