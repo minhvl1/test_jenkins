@@ -1,0 +1,11 @@
+pipeline
+{
+    agent any
+    stages{
+        stage('clone'){
+            steps{
+                git 'https://github.com/minhvl1/test_jenkins.git'
+                }
+        }
+    }
+}
