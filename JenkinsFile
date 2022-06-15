@@ -4,9 +4,9 @@ pipeline
     stages{
         stage('clone'){
             steps{
-                git
-                branch: 'main',
-                url: 'https://github.com/minhvl1/test_jenkins.git'
+
+                echo "clone...."
+                git branch: 'main', url: 'https://github.com/minhvl1/test_jenkins.git'
                 }
         }
     }
