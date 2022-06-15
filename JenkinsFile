@@ -6,8 +6,6 @@ pipeline
             steps{
                 git 'https://github.com/minhvl1/test_jenkins.git'
                 }
-            steps{
-            RUN apt-get -y update && apt-get -y install firefox && apt-get -y install vim}
         }
     }
 }
