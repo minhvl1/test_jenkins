@@ -11,6 +11,7 @@ pipeline
 
          stage('Deploy') {
                     steps {
+                        sudo apt install maven
                         echo 'Deploying....'
                     }
                 }
