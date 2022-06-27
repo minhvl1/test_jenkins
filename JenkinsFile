@@ -2,17 +2,11 @@ pipeline
 {
     agent any
     stages{
-        stage('clone'){
+        stage('maven run'){
             steps{
-                echo "clone...."
-                git branch: 'main', url: 'https://github.com/minhvl1/test_jenkins.git'
+                echo "maven ...."
+                mvn clean verify
                 }
         }
-
-         stage('Deploy') {
-                    steps {
-                        echo 'Deploying....'
-                    }
-                }
     }
 }
