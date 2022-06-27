@@ -1,0 +1,11 @@
+com\qa\stepdef\Hooks$1.class
+com\qa\stepdef\Login.class
+com\qa\PageObject\HomePage.class
+com\qa\PageObject\BasePage.class
+com\qa\PageObject\CVPage.class
+com\qa\stepdef\TimeSt.class
+com\qa\stepdef\Hooks.class
+com\qa\PageObject\LoginPage.class
+com\qa\PageObject\RegisterPage.class
+com\qa\runners\MyRunnerTest.class
+com\qa\stepdef\Hooks$BrowserCleanup.class
